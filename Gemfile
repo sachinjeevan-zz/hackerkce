@@ -18,13 +18,16 @@ gem 'jquery-rails'
 gem 'merit'
 # Used to implement at.js for auto complete mentions/emojis
 gem 'jquery-atwho-rails'
-
+gem  'sprockets-rails'
 # Use twitter bootstrap sass
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-sass', '3.2.0.2'
 gem 'autoprefixer-rails'
 gem 'font-awesome-rails'
 gem 'tzinfo-data'
+gem 'simple_form'
+gem 'coffee-rails'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
 group :development do
 
   gem 'spring'
@@ -42,17 +45,11 @@ end
 
 group :production do
   gem 'pg', '~> 0.20'
-  gem 'fog-aws'
-  gem 'fog'
+
   gem 'rails_12factor'
 
 end
-platforms :ruby do
-  gem 'unicorn'
-end
-platforms :mswin do
-  gem 'thin'
-end
+
 gem 'devise'
 gem 'carrierwave'
 gem 'friendly_id', '~> 5.0'
