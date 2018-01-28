@@ -21,12 +21,11 @@ gem 'jquery-atwho-rails'
 gem  'sprockets-rails'
 # Use twitter bootstrap sass
 gem 'bootstrap-sass', '3.2.0.2'
-gem 'autoprefixer-rails'
-gem 'font-awesome-rails'
+
 gem 'tzinfo-data'
 gem 'simple_form'
 gem 'coffee-rails'
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
 
 group :development do
 
@@ -52,15 +51,6 @@ end
 
 gem 'devise'
 gem 'carrierwave'
-gem 'friendly_id', '~> 5.0'
-
-gem 'will_paginate', '~> 3.1.0'
-gem 'public_activity'
-
-gem 'acts_as_votable', '~> 0.10.0'
-gem 'acts_as_commentable'
-gem 'acts_as_follower'
-gem 'counter_culture', '~> 0.1.33'
 
 gem 'faker'
 gem 'populator'

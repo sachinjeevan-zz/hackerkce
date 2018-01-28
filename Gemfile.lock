@@ -43,21 +43,13 @@ GEM
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    acts_as_commentable (4.0.2)
-    acts_as_follower (0.2.1)
-    acts_as_votable (0.10.0)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    after_commit_action (1.0.1)
-      activerecord (>= 3.0.0)
-      activesupport (>= 3.0.0)
     ambry (1.0.0)
     arel (8.0.0)
     auto_html (1.6.4)
       redcarpet (~> 3.1)
       rinku (~> 1.5.0)
-    autoprefixer-rails (7.2.5)
-      execjs
     bcrypt (3.1.11-x86-mingw32)
     better_errors (2.4.0)
       coderay (>= 1.0.0)
@@ -83,10 +75,6 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
-    counter_culture (0.1.34)
-      activerecord (>= 3.0.0)
-      activesupport (>= 3.0.0)
-      after_commit_action (~> 1.0.0)
     crass (1.0.3)
     debug_inspector (0.0.3)
     devise (4.4.1)
@@ -101,11 +89,7 @@ GEM
     faker (1.8.7)
       i18n (>= 0.7)
     ffi (1.9.18-x86-mingw32)
-    font-awesome-rails (4.7.0.3)
-      railties (>= 3.2, < 5.2)
     formatador (0.2.5)
-    friendly_id (5.2.3)
-      activerecord (>= 4.0.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     guard (2.14.2)
@@ -166,11 +150,6 @@ GEM
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    public_activity (1.5.0)
-      actionpack (>= 3.0.0)
-      activerecord (>= 3.0)
-      i18n (>= 0.5.0)
-      railties (>= 3.0.0)
     public_suffix (3.0.1)
     puma (3.11.2)
     rack (2.0.3)
@@ -267,32 +246,23 @@ GEM
       execjs (>= 0.3.0, < 3)
     warden (1.2.7)
       rack (>= 1.0)
-    wdm (0.1.1)
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.3)
-    will_paginate (3.1.6)
 
 PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
   active_model_serializers
-  acts_as_commentable
-  acts_as_follower
-  acts_as_votable (~> 0.10.0)
   auto_html (~> 1.6.4)
-  autoprefixer-rails
   better_errors
   binding_of_caller
   bootstrap-sass (= 3.2.0.2)
   carrierwave
   coffee-rails
-  counter_culture (~> 0.1.33)
   devise
   faker
-  font-awesome-rails
-  friendly_id (~> 5.0)
   guard
   guard-rspec (~> 4.2.8)
   jquery-atwho-rails
@@ -301,7 +271,6 @@ DEPENDENCIES
   merit
   pg (~> 0.20)
   populator
-  public_activity
   puma
   rails (~> 5.1.3)
   rails_12factor
@@ -313,8 +282,6 @@ DEPENDENCIES
   sqlite3
   tzinfo-data
   uglifier (>= 1.3.0)
-  wdm (>= 0.1.0)
-  will_paginate (~> 3.1.0)
 
 BUNDLED WITH
    1.15.3
