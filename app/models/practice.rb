@@ -1,4 +1,4 @@
 class Practice < ApplicationRecord
- 
+
 
 end
